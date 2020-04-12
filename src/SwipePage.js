@@ -83,7 +83,10 @@ componentDidMount(){
       style={
         {backgroundImage:`url(${images['stare.png']})`,
         backgroundColor: "rgba(255,255,255,"+(1-(this.state.missCounter)/5+0.5)+")",
-        backgroundBlendMode: "lighten"
+        backgroundBlendMode: "lighten",
+        overflow: "hidden",
+        overflowY: "hidden",
+        overflowX: "hidden"
 
       }
       }
